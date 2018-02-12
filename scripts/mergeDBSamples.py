@@ -15,6 +15,8 @@ from cp3_llbb.SAMADhi.SAMADhi import Dataset, Sample, File, DbStore
 # import some lumi utils
 from FWCore.PythonUtilities.LumiList import LumiList
 
+CMSSW_BASE = os.environ['CMSSW_BASE']
+
 def get_options():
     """
     Parse and return the arguments provided by the user.
